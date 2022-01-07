@@ -1,10 +1,10 @@
-(module USB-A-SMD_U231-091N-4BLRA00-S-1 (layer F.Cu) (tedit 4289BEAB)
+(module USB-A-SMD_U231-091N-4BLRA00-S-1 (layer F.Cu) (tedit 61D7D0AA)
   (attr smd)
-  (fp_text reference USB2 (at 0 0) (layer B.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  (fp_text reference USB2 (at 4.445 4.826) (layer Cmts.User) hide
+    (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
   )
-  (fp_text value "" (at 0 0) (layer B.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.05)) (justify mirror))
+  (fp_text value Val** (at 4.953 1.905) (layer Cmts.User) hide
+    (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
   )
   (pad 11 thru_hole oval (at -0.57404 -6.4008 270) (size 1.30048 3.2004) (drill 0.70104) (layers *.Cu))
   (pad 10 thru_hole oval (at -0.57404 6.4008 90) (size 1.30048 3.2004) (drill 0.70104) (layers *.Cu))
