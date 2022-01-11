@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\VL160\VL160.sch</source>
+    <date>2022/1/10 21:48:24</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VL160.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>USB_C_Receptacle</value>
+      <footprint>VL160:USB-C-SMD_TYPE-C-31-G-01</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle" description="USB Full-Featured Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5142D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB3_A</value>
+      <footprint>VL160:USB-A-SMD_U231-091N-4BLRA00-S-1</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB3_A" description="USB 3.0 A connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5395C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>VL160</value>
+      <footprint>VL160:WQFN-28_L4.5-W3.5-H0.8-P0.4</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <libsource lib="VL160" part="VL160" description="USB to UART master bridge, QFN-28"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D5D001</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>20.5K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D6615C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D672EE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D73269</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D7387F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D74004</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D80009</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D804DE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D80913</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SE8550</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="MCP1700-5002E_SOT23" description="250mA Low Quiscent Current LDO, 5.0V output, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DB05F7</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>VL160:Hole_1.152mm_JLCSMT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DE104D</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>VL160:Hole_1.152mm_JLCSMT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DE1429</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>VL160:Hole_1.152mm_JLCSMT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DE16E7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB3_A">
+      <description>USB 3.0 A connector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB3_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SSRX-" type="output"/>
+        <pin num="6" name="SSRX+" type="output"/>
+        <pin num="7" name="DRAIN" type="passive"/>
+        <pin num="8" name="SSTX-" type="input"/>
+        <pin num="9" name="SSTX+" type="input"/>
+        <pin num="10" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle">
+      <description>USB Full-Featured Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="TX1+" type="BiDi"/>
+        <pin num="A3" name="TX1-" type="BiDi"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A10" name="RX2-" type="BiDi"/>
+        <pin num="A11" name="RX2+" type="BiDi"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="TX2+" type="BiDi"/>
+        <pin num="B3" name="TX2-" type="BiDi"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B10" name="RX1-" type="BiDi"/>
+        <pin num="B11" name="RX1+" type="BiDi"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MCP1700-3002E_SOT23">
+      <aliases>
+        <alias>MCP1700-1202E_SOT23</alias>
+        <alias>MCP1700-1802E_SOT23</alias>
+        <alias>MCP1700-2502E_SOT23</alias>
+        <alias>MCP1700-2802E_SOT23</alias>
+        <alias>MCP1700-3302E_SOT23</alias>
+        <alias>MCP1700-5002E_SOT23</alias>
+      </aliases>
+      <description>250mA Low Quiscent Current LDO, 3.0V output, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700-3002E_SOT23</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="VL160" part="VL160">
+      <description>USB to UART master bridge, QFN-28</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*5x5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VL160</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CC1" type="BiDi"/>
+        <pin num="2" name="TX1+" type="BiDi"/>
+        <pin num="3" name="TX1-" type="BiDi"/>
+        <pin num="4" name="TX2-" type="BiDi"/>
+        <pin num="5" name="TX2+" type="BiDi"/>
+        <pin num="6" name="RX1+" type="BiDi"/>
+        <pin num="7" name="RX1-" type="output"/>
+        <pin num="8" name="RX2-" type="BiDi"/>
+        <pin num="9" name="RX2+" type="BiDi"/>
+        <pin num="10" name="REXT" type="input"/>
+        <pin num="11" name="Vconn_CC" type="output"/>
+        <pin num="12" name="Vconn_UVLO" type="output"/>
+        <pin num="13" name="HighZ_CC" type="input"/>
+        <pin num="14" name="CSO_1" type="output"/>
+        <pin num="15" name="CSO_2" type="output"/>
+        <pin num="16" name="ATT_STATUS" type="output"/>
+        <pin num="17" name="RX-" type="BiDi"/>
+        <pin num="18" name="RX+" type="BiDi"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="TX-" type="BiDi"/>
+        <pin num="21" name="TX+" type="BiDi"/>
+        <pin num="22" name="ORI_STATUS" type="output"/>
+        <pin num="23" name="CSI1" type="input"/>
+        <pin num="24" name="CSI2" type="input"/>
+        <pin num="25" name="CE" type="input"/>
+        <pin num="26" name="VCC5V" type="power_in"/>
+        <pin num="27" name="Vconn_5Vin" type="input"/>
+        <pin num="28" name="CC2" type="BiDi"/>
+        <pin num="29" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="VL160">
+      <uri>C:\VL160/VL160.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/TX+">
+      <node ref="U1" pin="21"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="2" name="VBUS">
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="J1" pin="A4"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="A9"/>
+    </net>
+    <net code="3" name="/TX-">
+      <node ref="U1" pin="20"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="4" name="/RX+">
+      <node ref="U1" pin="18"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="5" name="/RX-">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="6" name="/D+">
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="B6"/>
+      <node ref="J1" pin="A6"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="J2" pin="10"/>
+      <node ref="U1" pin="29"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="U1" pin="19"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="7"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="S1"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="23"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="24"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="11" name="/RX1-">
+      <node ref="U1" pin="7"/>
+      <node ref="J1" pin="B10"/>
+    </net>
+    <net code="12" name="/RX1+">
+      <node ref="U1" pin="6"/>
+      <node ref="J1" pin="B11"/>
+    </net>
+    <net code="13" name="/RX2-">
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="A10"/>
+    </net>
+    <net code="14" name="/RX2+">
+      <node ref="J1" pin="A11"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="10"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="13"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="22" name="/D-">
+      <node ref="J1" pin="B7"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="A7"/>
+    </net>
+    <net code="23" name="VCC">
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U1" pin="27"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="25" name="/CC2">
+      <node ref="J1" pin="B5"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="26" name="/TX2-">
+      <node ref="J1" pin="B3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="28" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="29" name="/CC1">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="A5"/>
+    </net>
+    <net code="30" name="/TX1-">
+      <node ref="J1" pin="A3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="31" name="/TX1+">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="A2"/>
+    </net>
+    <net code="32" name="/TX2+">
+      <node ref="J1" pin="B2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+  </nets>
+</export>

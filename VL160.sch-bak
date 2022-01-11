@@ -41,7 +41,7 @@ U 1 1 61D5D001
 P 5450 2700
 F 0 "U1" H 5950 1600 50  0000 C CNN
 F 1 "VL160" H 6000 1500 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 3900 -200 50  0001 L CNN
+F 2 "VL160:WQFN-28_L4.5-W3.5-H0.8-P0.4" H 3900 -200 50  0001 L CNN
 F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 5500 1950 50  0001 C CNN
 	1    5450 2700
 	1    0    0    -1  
@@ -387,17 +387,6 @@ F 3 "" H 8950 2500 50  0001 C CNN
 $EndComp
 Connection ~ 8950 2500
 $Comp
-L Regulator_Linear:LM3480-5.0 U2
-U 1 1 61D7F2AC
-P 5350 1000
-F 0 "U2" H 5350 1242 50  0000 C CNN
-F 1 "LM3480-5.0" H 5350 1151 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5350 1225 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" H 5350 1000 50  0001 C CNN
-	1    5350 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 61D80009
 P 4900 1150
@@ -437,18 +426,12 @@ Wire Wire Line
 	4900 1000 4700 1000
 Wire Wire Line
 	5650 1000 6000 1000
-Connection ~ 5650 1000
 Connection ~ 6000 1000
 Wire Wire Line
 	6000 1000 6200 1000
 Wire Wire Line
 	6000 1300 5650 1300
-Connection ~ 5350 1300
-Wire Wire Line
-	5350 1300 5300 1300
 Connection ~ 5650 1300
-Wire Wire Line
-	5650 1300 5350 1300
 $Comp
 L power:GND #PWR0111
 U 1 1 61D84864
@@ -484,5 +467,66 @@ F 2 "" H 6200 1000 50  0001 C CNN
 F 3 "" H 6200 1000 50  0001 C CNN
 	1    6200 1000
 	0    1    1    0   
+$EndComp
+$Comp
+L Regulator_Linear:MCP1700-5002E_SOT23 U2
+U 1 1 61DB05F7
+P 5350 1000
+F 0 "U2" H 5350 1242 50  0000 C CNN
+F 1 "SE8550" H 5350 1151 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5350 1225 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 5350 1000 50  0001 C CNN
+	1    5350 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1300 5350 1300
+Connection ~ 5350 1300
+Wire Wire Line
+	5350 1300 5650 1300
+Connection ~ 5650 1000
+$Comp
+L power:GND #PWR0114
+U 1 1 61DD0AA4
+P 5150 4000
+F 0 "#PWR0114" H 5150 3750 50  0001 C CNN
+F 1 "GND" H 5155 3827 50  0000 C CNN
+F 2 "" H 5150 4000 50  0001 C CNN
+F 3 "" H 5150 4000 50  0001 C CNN
+	1    5150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61DE104D
+P 9450 4700
+F 0 "H1" H 9550 4746 50  0000 L CNN
+F 1 "MountingHole" H 9550 4655 50  0000 L CNN
+F 2 "VL160:Hole_1.152mm_JLCSMT" H 9450 4700 50  0001 C CNN
+F 3 "~" H 9450 4700 50  0001 C CNN
+	1    9450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61DE1429
+P 9450 4900
+F 0 "H2" H 9550 4946 50  0000 L CNN
+F 1 "MountingHole" H 9550 4855 50  0000 L CNN
+F 2 "VL160:Hole_1.152mm_JLCSMT" H 9450 4900 50  0001 C CNN
+F 3 "~" H 9450 4900 50  0001 C CNN
+	1    9450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61DE16E7
+P 9450 5100
+F 0 "H3" H 9550 5146 50  0000 L CNN
+F 1 "MountingHole" H 9550 5055 50  0000 L CNN
+F 2 "VL160:Hole_1.152mm_JLCSMT" H 9450 5100 50  0001 C CNN
+F 3 "~" H 9450 5100 50  0001 C CNN
+	1    9450 5100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

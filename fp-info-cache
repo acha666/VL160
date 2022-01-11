@@ -1,4 +1,4 @@
-19217731854836954
+19219375161430927
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82257,12 +82257,19 @@ transformer flyback
 10
 10
 VL160
+Hole_1.152mm_JLCSMT
+
+
+0
+0
+0
+VL160
 USB-A-SMD_U231-091N-4BLRA00-S-1
 
 
 0
 11
-11
+10
 VL160
 USB-C-SMD_TYPE-C-31-G-01
 
