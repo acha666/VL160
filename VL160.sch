@@ -19,7 +19,7 @@ U 1 1 61D5142D
 P 2400 2950
 F 0 "J1" H 2507 4217 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 2507 4126 50  0000 C CNN
-F 2 "VL160:USB-C-SMD_TYPE-C-31-G-01" H 2550 2950 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 2550 2950 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2550 2950 50  0001 C CNN
 	1    2400 2950
 	1    0    0    -1  
@@ -34,17 +34,6 @@ F 2 "VL160:USB-A-SMD_U231-091N-4BLRA00-S-1" H 8900 3300 50  0001 C CNN
 F 3 "~" H 8900 3300 50  0001 C CNN
 	1    8750 3200
 	-1   0    0    1   
-$EndComp
-$Comp
-L VL160:VL160 U1
-U 1 1 61D5D001
-P 5450 2700
-F 0 "U1" H 5950 1600 50  0000 C CNN
-F 1 "VL160" H 6000 1500 50  0000 C CNN
-F 2 "VL160:WQFN-28_L4.5-W3.5-H0.8-P0.4" H 3900 -200 50  0001 L CNN
-F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 5500 1950 50  0001 C CNN
-	1    5450 2700
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3000 1950 3650 1950
@@ -221,11 +210,6 @@ F 3 "" H 5450 4300 50  0001 C CNN
 	1    5450 4300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5250 4000
-NoConn ~ 5350 4000
-NoConn ~ 5550 4000
-NoConn ~ 5950 3550
-NoConn ~ 5950 3450
 Wire Wire Line
 	7600 3400 8250 3400
 Wire Wire Line
@@ -368,7 +352,6 @@ F 3 "" H 5450 2200 50  0001 C CNN
 	1    5450 2200
 	1    0    0    -1  
 $EndComp
-Connection ~ 5450 2200
 Wire Wire Line
 	8750 2500 8850 2500
 Connection ~ 8850 2500
@@ -529,4 +512,81 @@ F 3 "~" H 9450 5100 50  0001 C CNN
 	1    9450 5100
 	1    0    0    -1  
 $EndComp
+Connection ~ 5450 2200
+$Comp
+L VL160:VL160 U1
+U 1 1 61D5D001
+P 5450 2700
+F 0 "U1" H 5950 1600 50  0000 C CNN
+F 1 "VL160" H 6000 1500 50  0000 C CNN
+F 2 "VL160:WQFN-28_L4.5-W3.5-H0.8-P0.4" H 3900 -200 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 5500 1950 50  0001 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61E11662
+P 5250 4650
+F 0 "TP1" H 5192 4676 50  0000 R CNN
+F 1 "TestPoint" H 5192 4767 50  0000 R CNN
+F 2 "VL160:TestPoint_Pad_D0.7mm" H 5450 4650 50  0001 C CNN
+F 3 "~" H 5450 4650 50  0001 C CNN
+	1    5250 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61E1235A
+P 5350 4650
+F 0 "TP2" H 5292 4676 50  0000 R CNN
+F 1 "TestPoint" H 5292 4767 50  0000 R CNN
+F 2 "VL160:TestPoint_Pad_D0.7mm" H 5550 4650 50  0001 C CNN
+F 3 "~" H 5550 4650 50  0001 C CNN
+	1    5350 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 61E126B1
+P 5550 4650
+F 0 "TP3" H 5492 4676 50  0000 R CNN
+F 1 "TestPoint" H 5492 4767 50  0000 R CNN
+F 2 "VL160:TestPoint_Pad_D0.7mm" H 5750 4650 50  0001 C CNN
+F 3 "~" H 5750 4650 50  0001 C CNN
+	1    5550 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 61E1285F
+P 6350 3550
+F 0 "TP5" V 6304 3738 50  0000 L CNN
+F 1 "TestPoint" V 6395 3738 50  0000 L CNN
+F 2 "VL160:TestPoint_Pad_D0.7mm" H 6550 3550 50  0001 C CNN
+F 3 "~" H 6550 3550 50  0001 C CNN
+	1    6350 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61E12E64
+P 6350 3450
+F 0 "TP4" V 6304 3638 50  0000 L CNN
+F 1 "TestPoint" V 6395 3638 50  0000 L CNN
+F 2 "VL160:TestPoint_Pad_D0.7mm" H 6550 3450 50  0001 C CNN
+F 3 "~" H 6550 3450 50  0001 C CNN
+	1    6350 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 4000 5250 4650
+Wire Wire Line
+	5350 4650 5350 4000
+Wire Wire Line
+	5550 4000 5550 4650
+Wire Wire Line
+	5950 3450 6350 3450
+Wire Wire Line
+	6350 3550 5950 3550
 $EndSCHEMATC
